@@ -10,7 +10,18 @@ KiCAD footprint library and 3D models for commonly used connectors used in synth
 * Assets - Images and other items used for this documentation
 * FreeCAD_Drawings - The modifiable FreeCAD used to generate the 3dmodels
 
-# Installation (KiCAD 5.1)
+# Installation and use (KiCAD 5.1)
+
+### Symbols
+There are no symbols for the jacks as it is intended for use with the KiCAD standard symbols. The pads are named with the matching designators, I will list below which symbol to use in KiCAD e.g AudioJack2. Here is the definitions KiCAD 5.1 currently uses
+
+* T = Tip the end of the jack
+* R = The ring of the jack, when stereo this is the middle band
+* S = The sleeve of the jack, usually referenced to ground and connected to the conductive sleeve of the cable
+* TN = Tip Normalized, this is connected to tip when the jack is not present but disconnected on insertion
+* RN = Ring Normalized, this is connected to ring when the jack is not present but disconnected on insertion
+* SN = Sleeve Normalized, this is connected to sleeve when the jack is not present but disconnected on insertion
+
 
 ### Footprints via footprint editor
 * Copy to chosen location for your custom KiCAD libraries, this could be the default one or anywhere on your disk.
