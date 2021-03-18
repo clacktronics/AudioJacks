@@ -1,4 +1,5 @@
 # WARNING NOT YET COMPLETE, DO NOT USE, PLEASE CHECK AGAIN OR FOLLOW FOR FINAL RELASE
+https://github.com/clacktronics/AudioJacks
 
 # AudioJacks
 KiCAD footprint library and 3D models for commonly used connectors used in synths and other audio equipment.
@@ -31,7 +32,7 @@ Here is a summary of the contents, please not they may not be the original manuf
 Common type used on Doepfer and Expert Sleepers
 
 ### QuingPu PJ301BM
-Sheilded connector a little like the PJ398SM
+Sheilded connector a little like the PJ398SM, popularised by [Earthenvar](http://erthenvar.com/blog/improved-jacks-now-shipping/)
 
 ### QuingPu PJ301CM
 Stereo jack
@@ -42,14 +43,20 @@ Commonly used side mounting mono jack in Eurorack
 ### QuingPu PJ366ST
 Stereo jack in a similar shape to PJ398SM but not exactly the same
 
-### QuingPu PJ398SM aka "Thonkiconn"
-Very common eurorack jack sold by many suppliers like Thonk. 3D model options with Knurled nut, hex nut and no nut.
+### QuingPu PJ398SM
+AKA [Thonkiconn](https://www.thonk.co.uk), very commonly used eurorack jack sold by many suppliers like Thonk. 3D model options with Knurled nut, hex nut and no nut.
 
 ### QuingPu PJ301M-12
 The original "Thonkiconn" looks a little different (different 3D model) but same footprint as PJ398SM
 
 ### QuingPu PJ3410
-Taller vertical mount 3.5mm jack
+'NV' jack (Kits by ['NV'](https://www.muffwiggler.com/forum/viewtopic.php?t=79912) on Muffwiggler) Taller vertical mount 3.5mm jack
+
+# FAQ
+* Can you add xxx jack to the library? - Yes add a feature request to issues on Github
+* My footprint did not work when after I got it from the manufacturer! - I try to test the files the best I can, but I can not guaruntee it, it is up to you to take responsibility for the design. If you have a problem with a footprint please open an issue on Github
+* Can I contribute my files to this library? - Yes, read `CONTRIBUTING.md` to check a few simple design rules I follow. I can not guaruntee my response speed.
+* Your descriptions are wrong for the parts! - Please let me know if you see any errors, the descriptions try and hint what audio/Eurorack kits they are used in to help finding the right ones, they may not be complete.
 
 # Licence
 
