@@ -30,6 +30,7 @@ Here is a summary of the contents, please not they may not be the original manuf
 
 ### Cliff FCR1281 / CL1384
 Common type used on Doepfer and Expert Sleepers
+![FCR1281](assets/FCR1281.jpg)
 
 ### QuingPu PJ301BM
 Sheilded connector a little like the PJ398SM, popularised by [Earthenvar](http://erthenvar.com/blog/improved-jacks-now-shipping/)
