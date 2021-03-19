@@ -34,18 +34,10 @@ There are no symbols for the jacks as it is intended for use with the KiCAD stan
 * Find `AudioJacks.pretty` and press open
 
 ### Using the 3D models
-This is a little tricky, the way KiCAD 5.1 manages 3D models is still a little bit basic. Fundamentally the 3D files just need to be dumped into the `packages3d` directory but that will be difficult to unpick later.
-
-#### Using the packages3d direcory
-* Copy all the 3D files into the KiCad `KISYS3DMOD` referenced folder, usually a folder known as `packages3d` my footprints will reference there. If you are unsure where that is look in `Preferences > Configure Paths` of the main KiCAD window.
-
-#### Defining your own
-* Make a directory of the 3d Files
-* Add your own path variable under `Preferences > Configure Paths`
-* Edit the footprint library, this is very tedious
-
-#### Manually adding as you go
-The problem with the above methods is you will not be including them with your individual projects, so if you share the project or use it on another computer you have to re-install all the files. It is a bit messy but make a folder in your current project and copy the 3d files you need and then edit the footprint in PCBnew and under 3D setting select the file, it should do it relatively to `KIPRJMOD` which is the project directory.
+This is a little tricky, the way KiCAD 5.1 manages 3D models is still a little bit basic. Fundamentally the 3D files just need to be dumped into the `packages3d` directory but they will not be shared as the files are not stored in the project folder unlike other parts.
+* Open up Kicad and go to `Preferences > Configure paths` find the directory of your `KISYS3DMOD` files
+* Copy over `AudioJacks.3dshapes` to that directory (you might find it is Read only, use Admin)
+* they should now work
 
 # Connectors in library
 Here is a summary of the contents, please not they may not be the original manufacturers but where I sourced the reference connector.
