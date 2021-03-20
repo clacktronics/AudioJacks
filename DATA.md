@@ -3,6 +3,7 @@
 This file contains information about the parts that is not needed for KiCAD but is a reference for designers. 
 
 | Manufacturer | Part Number   | Connector Type   | Reccomended KiCAD Symbol | Mounting orientation | Testing Status |
+|--------------|---------------|------------------|--------------------------|----------------------|----------------|
 | Cliff        | FCR1281       | 3.5mm Mono TS    | AudioJack2_Ground_Switch | Horizontal           | Untested       |
 | QuingPu      | WQP-PJ301BM   | 3.5mm Mono TS    | AudioJack2_SwitchT       | Vertical             | Untested       |
 | QuingPu      | WQP-PJ301CM   | 3.5mm Stereo TRS | AudioJack3               | Vertical             | Untested       |
