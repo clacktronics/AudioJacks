@@ -39,34 +39,6 @@ This is a little tricky, the way KiCAD 5.1 manages 3D models is still a little b
 * Copy over `AudioJacks.3dshapes` to that directory (you might find it is Read only, use Admin)
 * they should now work
 
-# Connectors in library
-Here is a summary of the contents, please not they may not be the original manufacturers but where I sourced the reference connector.
-
-### Cliff FCR1281 / CL1384
-Common type used on Doepfer and Expert Sleepers
-![FCR1281](assets/FCR1281.jpg)
-
-### QuingPu PJ301BM
-Sheilded connector a little like the PJ398SM, popularised by [Earthenvar](http://erthenvar.com/blog/improved-jacks-now-shipping/)
-
-### QuingPu PJ301CM
-Stereo jack
-
-### QuingPu PJ302M
-Commonly used side mounting mono jack in Eurorack
-
-### QuingPu PJ366ST
-Stereo jack in a similar shape to PJ398SM but not exactly the same
-
-### QuingPu PJ398SM
-AKA [Thonkiconn](https://www.thonk.co.uk), very commonly used eurorack jack sold by many suppliers like Thonk. 3D model options with Knurled nut, hex nut and no nut.
-
-### QuingPu PJ301M-12
-The original "Thonkiconn" looks a little different (different 3D model) but same footprint as PJ398SM
-
-### QuingPu PJ3410
-'NV' jack (Kits by ['NV'](https://www.muffwiggler.com/forum/viewtopic.php?t=79912) on Muffwiggler) Taller vertical mount 3.5mm jack
-
 # FAQ
 * Can you add xxx jack to the library? - Yes add a feature request to issues on Github
 * My footprint did not work when after I got it from the manufacturer! - I try to test the files the best I can, but I can not guaruntee it, it is up to you to take responsibility for the design. If you have a problem with a footprint please open an issue on Github
