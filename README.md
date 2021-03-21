@@ -54,4 +54,8 @@ If you wish to do it another way you have to manually edit each footprint either
 
 I have attached an MIT licence, it is free to use and modify for any use. I don't beleive in licences as they are only useful for the super wealthy who can afford gambling on litigation and in the end the only people that really win are the lawyers. Hopefully it will help if you need the proof that I won't come after you, all work here is original, no files are derivative of other copyrighted work such as manufacturer 3D models for example.
 
+# Donate
+
+If you have found this projecct useful or are using it in a commercial product please consider donating a one off via Ko-fi or sponsoring me on Github. It will help me a lot and is appreciated!
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M340M71)
