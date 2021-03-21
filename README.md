@@ -5,10 +5,12 @@ https://github.com/clacktronics/AudioJacks
 KiCAD footprint library and 3D models for commonly used connectors used in synths and other audio equipment.
 
 # Directory structure
-* 3Dmodels - The .step files used by KiCAD for the PCB rendering
+* AudioJacks.3dshapes  - The .step files used by KiCAD for the PCB rendering
 * AudioJacks.pretty - the KiCAD footprint library
-* Assets - Images and other items used for this documentation
+* Demo_board - Example board of all the jacks
 * FreeCAD_Drawings - The modifiable FreeCAD used to generate the 3dmodels
+* Assets - Images and other items used for this documentation
+
 
 # Installation and use (KiCAD 5.1)
 
