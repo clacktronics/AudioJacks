@@ -45,10 +45,11 @@ This is a little tricky, the way KiCAD 5.1 manages 3D models is still a little b
 If you wish to do it another way you have to manually edit each footprint either at PCBnew level or in the footprint editor to point to the new location of the 3d file for that footprint. It will likely end up being the absolute location on your computer.
 
 # FAQ
-* Can you add xxx jack to the library? - Yes add a feature request to issues on Github
-* My footprint did not work when after I got it from the manufacturer! - I try to test the files the best I can, but I can not guaruntee it, it is up to you to take responsibility for the design. If you have a problem with a footprint please open an issue on Github
-* Can I contribute my files to this library? - Yes, read `CONTRIBUTE.md` to check a few simple design rules I follow. I can not guaruntee my response speed.
-* Your descriptions are wrong for the parts! - Please let me know if you see any errors, the descriptions try and hint what audio/Eurorack kits they are used in to help finding the right ones, they may not be complete.
+* _Can you add xxx jack to the library?_ - Yes add a feature request to issues on Github
+* _My footprint did not fit after I got PCB from the manufacturer!_ - I try to test the files the best I can, but I can not guaruntee it, it is up to you to take responsibility for the design as manufacturer quality varies. If you have a problem with a footprint please open an issue on Github and I will see what I can do.
+* _Can I contribute my files to this library?_ - Yes, read `CONTRIBUTE.md` to check a few simple design rules I follow. I can not guaruntee my response speed.
+* _Your descriptions are wrong for the parts!_ - Please let me know if you see any errors, the descriptions try and hint what audio/Eurorack kits they are used in to help finding the right ones, they may not be complete.
+* _Why dont you contribute the files to KiCAD main library?_ Yes that is the plan, I will attempt to contribut the footprints and 3D models to the KiCAD main library (probably "Connectors audio") but this seperate repository lets you grab what you need now and lets me provide a bit more information.
 
 # Licence
 
@@ -56,6 +57,6 @@ I have attached an MIT licence, it is free to use and modify for any use. I don'
 
 # Donate
 
-If you have found this projecct useful or are using it in a commercial product please consider donating a one off via Ko-fi or sponsoring me on Github. It will help me a lot and is appreciated!
+If you have found this project useful or are using it in a commercial product please consider donating a one off via Ko-fi or sponsoring me monthly on Github. It will help me a lot and is appreciated!
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M340M71)
