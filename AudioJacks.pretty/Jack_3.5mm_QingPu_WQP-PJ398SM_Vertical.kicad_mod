@@ -1,7 +1,7 @@
-(module Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical (layer F.Cu) (tedit 605646AE)
+(module Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical (layer F.Cu) (tedit 6057154E)
   (descr "T-S-SN Vertical mount jack AKA WQP-WQP518MA or Thonkiconn")
   (tags "WQP-WQP518MA, Thonkiconn")
-  (fp_text reference REF** (at -3 -7) (layer F.SilkS)
+  (fp_text reference REF** (at -2.5 -6.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value PJ398SM (at 0 -5) (layer F.Fab)
@@ -39,7 +39,7 @@
     (effects (font (size 0.4 0.4) (thickness 0.051)))
   )
   (pad T thru_hole roundrect (at 0 -4.92) (size 2.6 2.6) (drill oval 1.6 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (pad S thru_hole oval (at 0 6.48) (size 2.6 1.8) (drill oval 1.6 0.6) (layers *.Cu *.Mask))
+  (pad S thru_hole oval (at 0 6.48) (size 3.1 2.3) (drill oval 1.6 0.6) (layers *.Cu *.Mask))
   (pad TN thru_hole roundrect (at 0 3.38) (size 2.6 2.6) (drill oval 1.6 0.6) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
   (model ${KISYS3DMOD}/AudioJacks.3dshapes/PJ398SM.step
     (at (xyz 0 0 0))
