@@ -1,3 +1,14 @@
+# Need to finish
+
+* Use KiCAD workspace for FreeCAD to create STEP and WRL files for all current parts
+* create 3D model for PJ301CM
+* Check 3D models fit the foor prints exactly
+* Make alt round holes version
+* Print and test foorprints against real parts.
+* Order prototype board
+* Release!
+
+
 # Parts I would like to add to this library
 
 * QingPu WQP-WQP729JH-R
